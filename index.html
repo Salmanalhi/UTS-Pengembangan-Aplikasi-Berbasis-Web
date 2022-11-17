@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salman Alhid</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Raleway:wght@500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind.config.js"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+        header {
+          @apply pt-5;
+          background: #00A6B7;
+        }
+        nav a {
+          @apply hover:underline hover:text-primary font-nav;
+        }
+        .button-primary {
+          @apply bg-primary text-white px-5 py-2 rounded-full;
+        }
+        .gradient {
+          background: -webkit-linear-gradient(left, #e18700 0%, #ff32ad 50%, #0ec5d7 100%);
+          color: transparent;
+          background-clip: text;
+        }
+        .img-sponsor {
+          height: 50px;
+          width: auto;
+          margin: 0px 25%;
+        }
+        .item-services {
+          border: none;
+          background: #ffffff;
+        }
+        .item {
+          height: 290px;
+          width: 400px;
+        }
+        .frame{
+          margin:20%;
+        }
+      }
+    </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <div id="navigation" class="container flex gap-10 justify-between mx-auto item-center ">
+      <div class=" flex gap-10 items-center justify-center">
+        <img src="./logo.svg" alt="logo" />
+        <p style="color: white ;"> Mangkoding</p>
+        <nav>
+          <ul class="container flex gap-20 justify-center mx-auto item-center "
+            style="color: #ffffff; background-color: #00A6B7;">
+            <li><a href="#"><b> Home</b></a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Resource</a></li>
+            <li><a href="#">Contact</a></li>
+
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="right-side flex gap-10 ">
+        <button class="button-primary" style="background-color: #0C3E63;">Get Started</button>
+        <button>
+          <img src="./search.svg" alt="search" />
+        </button>
+      </div>
+    </div>
+    <br><br><br>
+    <section class="hero lg:max-w-[700px] container mx-8 left-side">
+      <p class=" text-[#636363] my-10" style="color:white ;">Build Your Website</p>
+      <p class="text-[35px] font-bold" style="color: white ;">Build your website Develop your idea <span
+          class="gradient" style="color:#004248 ;"> Mangcoding Team </span> withThrough Digital Products
+      </p>
+      <p class=" text-[#636363] my-3" style="color:white ;">
+        Provide Website creation for your company ( Shopify, WordPrees, and Other )</p>
+      <div class="mb-5 action mx-auto flex items-center gap-5">
+        <a href="#" class="button-primary" style="background-color: #0C3E63;">Get Started</a>
+        <a href="#" class="button-primary border-2" style="background-color: #00A6B7;">Explore Our Blog</a>
+      </div>
+      <br><br><br><br>
+    </section>
+
+  </header>
+  <br>
+  <section class="hero lg:max-w-[700px] container mx-auto left-side ">
+    <div class=" flex gap-10 items-center justify-center"></div>
+    <p class="text-center text-[#636363] my-3">Brands That Trust us</p>
+    <div id="navigation" class="text-center">
+      <div class="items-center my-3">
+        <nav>
+          <ul class="flex  text-center p-0 gap-15">
+            <img src="./salmann.svg" alt="">
+          </ul>
+          <br><br>
+          <ul class="flex  text-center p-0 gap-10">
+            <img src="./salman.svg" alt="">
+          </ul>
+        </nav>
+      </div>
+  </section>
+  <!-- Services -->
+  <br>
+  <section class="mr-10 ml-10 mt-10 mb-10 h-[650px]" style="background-color:#0C3E63  ; margin-bottom: 20px;">
+    <div class="font-base ml-10 mt-5 flex flex-wrap item-center justify-between">
+      <div class="w-[500px]">
+        <br>
+        <button class="button-primary mr-20 " style="background-color: #3D6582 ;">Services</button>
+        <h1 class="w-[550px] text-[40px]" style="color: white ; font-family: 'Poppins'; font-style: normal; font-weight: 700;
+        font-size: 48px; line-height: 72px;"><b>Modern Solutions to Empower
+            your business</b></h1>
+      </div>
+
+      <div>
+        <br><br><br>
+        <a href="#" class="button-primary border-2 mr-20" style="background-color:#0C3E63;">Our Services </a>
+      </div>
+
+
+      <div class="w-full mt-20 grid grid-cols-3 gap-3 mr-[15px] mr-20 ">
+        <div
+          class="grid item px-8 py-2 rounded shadow-lg shadow-indigo-500/40 flex flex-wrap items-center justify-center bg-[#ffffff]">
+          <div class="w-[150px] py-10">
+            <img src="sa.svg" alt="" />
+          </div>
+          <h1 class="font-extrabold text-lg">Shopify Theme Development</h1>
+          <p class="py-4 text-sm ">Start from 700 USD for project base or 35 USD per hour</p>
+        </div>
+        <div class="grid item px-8 py-2 rounded bg-[#0C3E63] flex flex-wrap items-center justify-center bg-[#ffffff]">
+          <div class="w-[150px] py-10">
+            <img src="word.svg" alt="" />
+          </div>
+          <h1 class="font-extrabold text-lg text-white">Shopify Theme Development</h1>
+          <p class="py-4 text-sm text-white">Start from 700 USD for project base or 35 USD per hour</p>
+        </div>
+        <div class="grid item px-8 py-2 rounded bg-[#0C3E63] flex flex-wrap items-center justify-center bg-[#ffffff]">
+          <div class="w-[150px] py-10">
+            <img src="php.svg" alt="" />
+          </div>
+          <h1 class="font-extrabold text-lg text-white">Shopify Theme Development</h1>
+          <p class="py-4 text-sm text-white ">Start from 700 USD for project base or 35 USD per hour</p>
+        </div>
+
+        <div class="w-[500px]">
+          <br><br><br><br><br>
+          <button class="button-primary mr-20 mx-1 left-side border-2"
+            style="background-color: #000000 ;">Services</button>
+          <h1 class="w-[550px] text-[40px]" style="color: rgb(0, 0, 0) ; font-family: 'Poppins'; font-style: normal; font-weight: 700;
+          font-size: 48px; line-height: 72px;"><b>Modern Solutions to Empower
+              your business</b></h1>
+        </div>
+      </div>
+      <br>
+      <div>
+        <p class="button-primary mx-10 border-2 text-black " style="color: black ; background: white;">Cek Our Work</p>
+      </div>
+
+
+
+
+  </section>
+  <br><br><br><br>
+  <!-- out work -->
+  <section>
+    <div class="grid grid-cols-2 gap-4 py-[200px] mx-10">
+      <div class="mx-10">
+        <div class="text-left">
+          <img src="sa2.svg" alt="">
+        </div>
+        <h1 class="font-bold text-xl py-4">Retainer Orely Studio</h1>
+        <p class="text-slate-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In consequatur officiis
+          sunt, officia debitis distinctio modi repellat quisquam, minus at doloribus ex dolores sed rerum nisi mollitia
+          explicabo nostrum repellendus?</p>
+
+      </div>
+      <div class="mx-10">
+        <div class="text-left">
+          <img src="sa3.svg" alt="">
+        </div>
+        <h1 class="font-bold text-xl py-4">Beacukai Sangatta</h1>
+        <p class="text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos maxime facere impedit
+          nihil doloribus maiores rem illum cupiditate reprehenderit accusamus! Nisi voluptates autem ullam omnis
+          officia facere accusamus aut maiores?</p>
+      </div>
+      <div class="mx-10">
+        <div class="text-left">
+          <img src="sa4.svg" alt="">
+        </div>
+        <h1 class="font-bold text-xl py-4">Federasi Ice Skating Indonesia</h1>
+        <p class="text-slate-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate id dolor
+          praesentium ab autem, optio fuga nisi! Esse aliquam dignissimos pariatur, quasi necessitatibus ipsum
+          doloremque. Quasi consectetur amet esse a.</p>
+
+      </div>
+      <div class="mx-10">
+        <div class="text-left">
+          <img src="sa5.svg" alt="">
+        </div>
+        <h1 class="font-bold text-xl py-4">Retainer Orely Studio</h1>
+        <p class="text-slate-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam quos in id, amet
+          distinctio doloribus, eveniet neque assumenda perspiciatis similique suscipit voluptatibus beatae obcaecati
+          ducimus inventore accusantium, enim mollitia magnam.</p>
+      </div>
+    </div>
+
+
+
+    <div class="mr-10 ml-10 mt-10 mb-10 h-[650px]">
+      <img src="sera.svg" alt="">
+    </div>
+      <br><br><br>
+      <div class="mb-5 action flex mx-auto justify-center items-center gap-5">
+        <a href="#" class="button-primary" style="background-color:#000000 ;">Blog</a>
+      </div>
+  </section>
+
+  <!-- kata kata -->
+
+
+  <!-- our blog -->
+
+  <section class="pb-20">
+    <div class="text-center justify-center">
+      <h1 class="font-bold text-[35px]">From Or Blog</h1>
+    </div>
+    <div class="grid grid-cols-3 gap-1 py-10 mx-20">
+      <div class="mx-1">
+        <div class="">
+          <img src="ta1.svg" alt="">
+        </div>
+        <p class="font-bold text-[20px]">8 Alasan Pentingnya Melakukan Pencadangan Situs Web</p>
+      </div>
+      <div class="">
+        <div class="">
+          <img src="ta2.svg" alt="">
+        </div>
+        <p class="font-bold text-[20px]">8 Alasan Pentingnya Melakukan Pencadangan Situs Web</p>
+      </div>
+      <div class="">
+        <div class="">
+          <img src="ta3.svg" alt="">
+        </div>
+        <p class="font-bold text-[20px]">8 Alasan Pentingnya Melakukan Pencadangan Situs Web</p>
+      </div>
+    </div>
+    <div class="mb-5 action flex mx-auto justify-center items-center gap-5">
+      <a href="#" class="button-primary" style="background-color: #0C3E63;">Our Work</a>
+    </div>
+  </section>
+
+  <!-- sebelum footer -->
+  <div class="hu" style="background-color: #05080F">
+    <div class="bg-black text-white">
+      <footer class="my-20">
+        <div class="flex flex-wrap">
+          <div class="mx-10 w-[300px] text-white">
+            <div class="flex flex-wrap py-10">
+              <img src="Group 2.png" alt="">
+            </div>
+            <p class="text-slate-400 text-white">Mangcoding Team Will Help You In Branding Your Product asdMangcoding
+              Team Will
+              Help
+              You In Branding Your Product asdMangcoding Team Will Help.</p>
+            <div class="flex flex-wrap py-10 text-white">
+              <img src="1 (1).png" alt="" class="mr-4">
+              <img src="1 (2).png" alt="" class="mr-4">
+              <img src="1 (3).png" alt="" class="mr-4">
+              <img src="1 (4).png" alt="" class="mr-4">
+            </div>
+          </div>
+          <div class="mt-10 text-white">
+            <h2 class="font-bold text-lg text-white">Pages</h2>
+            <ul class="py-6 text-slate-400">
+              <li class="pb-6 "><a href="#">Home</a></li>
+              <li class="pb-6"><a href="#">About</a></li>
+              <li class="pb-6"><a href="#">Services</a></li>
+              <li class="pb-6"><a href="#">Blog</a></li>
+              <li class="pb-6"><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="mt-10 ml-12 text-white">
+            <h2 class="font-bold text-lg">Services</h2>
+            <ul class="py-6 text-slate-400">
+              <li class="pb-6"><a href="#">Custom WordPress Theme Development </a></li>
+              <li class="pb-6"><a href="#">Custom Plugin WordPress </a></li>
+              <li class="pb-6"><a href="#">Custom Shopify Theme Development </a></li>
+              <li class="pb-6"><a href="#">Custom App for Shopify</a></li>
+              <li class="pb-6"><a href="#">Web Application</a></li>
+            </ul>
+          </div>
+
+          <div class="mt-10 ml-12 text-white">
+            <h2 class="font-bold text-white">Contact</h2>
+            <div class="w-[300px] py-4">
+              <a href="#"><img src="  " alt="">hello@mangcoding.com</a>
+              <a href="#"><img class="flex justify-between items-center" src="tlp.png"
+                  alt="">0266-6532078<br>WA:0857-5940-2332</a>
+              <a href="#"><img src="gps.png" alt="">PT Anugrah Kreasi Digital. karang <br> tengah, Cibadak -
+                Sukabumi</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <h1 class="text-center">
+        Trusted partners
+      </h1>
+    </div>
+
+  </div>
+</body>
+
+</html>
